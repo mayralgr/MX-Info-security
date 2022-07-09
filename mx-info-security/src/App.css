@@ -36,30 +36,3 @@
     transform: rotate(360deg);
   }
 }
-/* 
-.state path#MX-PUE {
-  fill: red;
-}
-.state path#MX-PUE:hover {
-  fill: red;
-} */
-#map svg:hover path {
-  fill: red;
-}
-
-
-/* 
-.state path {
-  fill: red;
-}
-
-.state  > path{
-  fill: red;
-} */
-/* .state:hover style{
-  filter: contrast(0.5);
-}
-.state:hover,
-.state:focus {
-  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
-} */
