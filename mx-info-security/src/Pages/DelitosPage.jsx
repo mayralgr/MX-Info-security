@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useState } from "react";
 import Sidebar from "../components/SideBar/SideBar";
 import information from "../resources/info/infoDelitos";
