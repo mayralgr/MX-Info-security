@@ -1,4 +1,6 @@
 
+import "./Map.css";
+
 const Map = ({onClick}) => {
     return (
         <svg onClick={onClick} version="1.0" xmlns="http://www.w3.org/2000/svg"
