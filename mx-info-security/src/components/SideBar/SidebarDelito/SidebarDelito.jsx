@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import SidebarLink from '../Styles/SidebarLink.styled';
 const SideBarDelito = ({ handleClick, delito, active }) => {
-    debugger;
     return (
         <SidebarLink
             active = {active}

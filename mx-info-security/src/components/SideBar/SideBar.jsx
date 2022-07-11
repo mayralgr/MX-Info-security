@@ -6,7 +6,6 @@ const Sidebar = ({
     delitos,
     handleClick
 }) => {
-    debugger;
     return (
         <SidebarWrapper open={true} >
             {delitos?.map((delito) => {
