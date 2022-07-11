@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import { NavLink } from "react-router-dom";
 
 import {
@@ -17,24 +15,23 @@ import { BsFillPersonFill } from "react-icons/bs";
 
 import "react-pro-sidebar/dist/css/styles.css";
 import "./Header.css";
+import { useMenu } from "../../contexts/MenuContext";
 
 const Header = () => {
-  const [menuCollapse, setMenuCollapse] = useState(false);
-
   const menuIconClick = () => {
-    menuCollapse ? setMenuCollapse(false) : setMenuCollapse(true);
+    dispatch({type: 'change',})
   };
-
+  const {state, dispatch} = useMenu();
   return (
     <>
       <div id="header">
-        <ProSidebar collapsed={menuCollapse}>
+        <ProSidebar collapsed={!state.open}>
           <SidebarHeader>
             <div className="logotext">
-              <p>{menuCollapse ? "" : "MX Security"}</p>
+              <p>{!state.open ? "" : "MX Security"}</p>
             </div>
             <div className="closemenu" onClick={menuIconClick}>
-              {menuCollapse ? <FiArrowRightCircle /> : <FiArrowLeftCircle />}
+              {!state.open ? <FiArrowRightCircle /> : <FiArrowLeftCircle />}
             </div>
           </SidebarHeader>
           <SidebarContent>

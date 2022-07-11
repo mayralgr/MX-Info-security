@@ -1,13 +1,15 @@
 import PropTypes from 'prop-types';
 import SidebarWrapper from './Styles/SidebarWrapper.styled';
 import SideBarDelito from './SidebarDelito/SidebarDelito';
+import { useMenu } from '../../contexts/MenuContext';
 
 const Sidebar = ({
     delitos,
     handleClick
 }) => {
+    const {state} = useMenu();
     return (
-        <SidebarWrapper open={true} >
+        <SidebarWrapper open={state.open} >
             {delitos?.map((delito) => {
                 return (
                     <SideBarDelito
