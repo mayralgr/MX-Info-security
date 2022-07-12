@@ -5,7 +5,8 @@ import { useMenu } from '../../contexts/MenuContext';
 
 const Sidebar = ({
     delitos,
-    handleClick
+    handleClick,
+    currentDelitoInfo
 }) => {
     const {state} = useMenu();
     return (
@@ -13,8 +14,9 @@ const Sidebar = ({
             {delitos?.map((delito) => {
                 return (
                     <SideBarDelito
+                        active={currentDelitoInfo.id === delito.id}
                         key={delito.id}
-                        handleCategoryClick={handleClick}
+                        handleClick={handleClick}
                         delito={delito}
                     />
                 );
@@ -24,6 +26,8 @@ const Sidebar = ({
 };
 
 Sidebar.propTypes = {
-    categories: PropTypes.object.isRequired,
+    delitos: PropTypes.array.isRequired,
+    handleClick: PropTypes.func.isRequired,
+    currentDelitoInfo: PropTypes.object.isRequired
 };
 export default Sidebar;

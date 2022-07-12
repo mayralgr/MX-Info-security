@@ -4,7 +4,6 @@ import * as React from 'react';
 const MenuContext = React.createContext({ open: true });
 
 function menuReducer(state, action) {
-    debugger;
     switch (action.type) {
         case 'change': {
             return { ...state, open: !state.open };

@@ -13,7 +13,7 @@ const SideBarDelito = ({ handleClick, delito, active }) => {
 };
 
 SideBarDelito.propTypes = {
-    category: PropTypes.object.isRequired,
+    delito: PropTypes.object.isRequired,
 };
 
 export default SideBarDelito;

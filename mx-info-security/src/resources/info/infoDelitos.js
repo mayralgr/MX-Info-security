@@ -3,24 +3,26 @@ const information = [{
         name: "Grooming",
         caracteriticas: "",
         descripcion: "",
-        articulos: {
-            "Articulo 1": ""
-        },
-        prevencion: {
-            "Prevencion 1": ""
-        },
+        articulos: [{
+            articulo: "Articulo 1",
+            legislacion: "Ley Federal de Protección de Datos Personales en Internet"
+        }],
+        prevencion: [
+            "Prevencion 1", ""
+        ],
         palabrasClave: ["niños"]
     },{
         id: "Smishing - Ingeniería Social",
         name: "Smishing - Ingeniería Social",
         caracteriticas: "",
         descripcion: "",
-        articulos: {
-            "Articulo 1": ""
-        },
-        prevencion: {
-            "Prevencion 1": ""
-        },
+        articulos: [{
+            articulo: "Articulo 1",
+            legislacion: "Ley Federal de Protección de Datos Personales en Internet"
+        }],
+        prevencion: [
+            "Prevencion 1", ""
+        ],
         palabrasClave: ["niños"]
     },
     {
@@ -28,24 +30,26 @@ const information = [{
         name: "Vishing - Ingeniería Social",
         caracteriticas: "",
         descripcion: "",
-        articulos: {
-            "Articulo 1": ""
-        },
-        prevencion: {
-            "Prevencion 1": ""
-        },
+        articulos: [{
+            articulo: "Articulo 1",
+            legislacion: "Ley Federal de Protección de Datos Personales en Internet"
+        }],
+        prevencion: [
+            "Prevencion 1", ""
+        ],
         palabrasClave: ["niños"]
     },{
         id: "Cyberbulling",
         name: "Cyberbulling",
         caracteriticas: "",
         descripcion: "",
-        articulos: {
-            "Articulo 1": ""
-        },
-        prevencion: {
-            "Prevencion 1": ""
-        },
+        articulos: [{
+            articulo: "Articulo 1",
+            legislacion: "Ley Federal de Protección de Datos Personales en Internet"
+        }],
+        prevencion: [
+            "Prevencion 1", ""
+        ],
         palabrasClave: ["niños"]
     }
 ];
