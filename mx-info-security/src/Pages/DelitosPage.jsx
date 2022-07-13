@@ -24,33 +24,6 @@ const DelitosPage = () => {
           handleClick={handleClick}
         />
         {currentDelitoInfo?.id && (
-          // <div className="delito-info" >
-          // {/* //60 y 75 width */}
-          //     <h2>{currentDelitoInfo.name}</h2>
-          //     <p>{currentDelitoInfo.descripcion}</p>
-          //     <p>{currentDelitoInfo.caracteristicas}</p>
-          //     <strong>Articulos relacionados</strong>
-          //     <table style={{width: "100%"}}>
-          //       <thead>
-          //         <tr>
-          //           <th>Articulo</th>
-          //           <th>Legislacion</th>
-          //         </tr>
-          //       </thead>
-          //       <tbody>
-          //         {currentDelitoInfo.articulos.map(articulo => (
-          //           <tr key={articulo.id}>
-          //             <td>{articulo.articulo}</td>
-          //             <td>{articulo.legislacion}</td>
-          //           </tr>
-          //         ))}
-          //       </tbody>
-          //     </table>
-          //     <strong>Prevención</strong>
-          //     <p>{currentDelitoInfo.prevencion}</p>
-          //     <p>Palabras clave</p>
-          //     {currentDelitoInfo.palabrasClave}
-          // </div>)
           <DelitoCard delito={currentDelitoInfo} />
         )}
       </div>
