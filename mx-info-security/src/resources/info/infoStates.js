@@ -538,196 +538,239 @@ const information = {
         name: "Querétaro",
         dependencias: [
             {
-                nombre: "",
-                pagina: "",
+                nombre: "Unidad de policía cibernética del estado de Querétaro SSP",
+                pagina: "http://sscqro.gob.mx/",
                 telefonos: [{
-                    numero: "",
+                    numero: "4423091400",
+                    extension: "10424"
+                },
+                {
+                    numero: "4423091401",
                     extension: ""
                 }],
                 whatsapp: "",
-                email: "",
+                email: "policiacibernetica@queretaro.gob.mx",
                 facebook: "",
+                twitter: "https://twitter.com/poesqro",
+                otro:""
+            },
+            {
+                nombre: "Unidad de policía cibernética del estado de Querétaro FGE",
+                pagina: "http://fiscaliageneralqro.gob.mx/",
+                telefonos: [{
+                    numero: "4422387600",
+                    extension: ""
+                }],
+                whatsapp: "",
+                email: "fiscaliaqro@gmail.com",
+                facebook: "https://www.facebook.com/fiscaliaqro/",
                 twitter: "",
                 otro:""
             }
         ]
     },
     "MX-ROO" : {
-        name: "Colima",
+        name: "Quintana Roo",
         dependencias: [
             {
-                nombre: "",
+                nombre: "Unidad de policía cibernética del estado de Quintana Roo SSP",
                 pagina: "",
                 telefonos: [{
-                    numero: "",
+                    numero: "9838350910",
                     extension: ""
                 }],
                 whatsapp: "",
-                email: "",
+                email: "policia.cibernetica@sspqroo.gob.mx",
                 facebook: "",
-                twitter: "",
+                twitter: "https://twitter.com/CiberneticaQroo",
+                otro:""
+            },
+            {
+                nombre: "Unidad de policía cibernética del estado de Quintana Roo FGE",
+                pagina: "http://www.fgeqroo.gob.mx/portal/",
+                telefonos: [{
+                    numero: "998817150",
+                    extension: ""
+                }],
+                whatsapp: "",
+                email: "division.cibernetica@fgeqroo.gob.mx",
+                facebook: "https://www.facebook.com/FGEQuintanaRoo/",
+                twitter: "https://twitter.com/FGEQuintanaRoo",
                 otro:""
             }
         ]
     },
     "MX-SLP" : {
-        name: "Colima",
+        name: "San Luis Potosí",
         dependencias: [
             {
-                nombre: "",
-                pagina: "",
+                nombre: "Unidad de policía cibernética del estado de San Luis Potosí SSP ",
+                pagina: "http://www.sspslp.gob.mx/",
                 telefonos: [{
-                    numero: "",
+                    numero: "4442550103",
                     extension: ""
                 }],
                 whatsapp: "",
-                email: "",
-                facebook: "",
-                twitter: "",
+                email: "ciberprevencion@sspslp.gob.mx",
+                facebook: "https://www.facebook.com/policiaciberneticaslp",
+                twitter: "https://twitter.com/Ciber_SSP_SLP",
                 otro:""
             }
         ]
     },
     "MX-SIN" : {
-        name: "Colima",
+        name: "Sinaloa",
         dependencias: [
             {
-                nombre: "",
-                pagina: "",
+                nombre: "Unidad de policía cibernética del estado de Sinaloa FGE",
+                pagina: "http://fiscaliasinaloa.mx/ ",
                 telefonos: [{
-                    numero: "",
+                    numero: "7170719",
                     extension: ""
                 }],
                 whatsapp: "",
                 email: "",
                 facebook: "",
-                twitter: "",
+                twitter: "https://twitter.com/FiscaliaSinaloa",
                 otro:""
             }
         ]
     },
     "MX-SON" : {
-        name: "Colima",
+        name: "Sonora",
         dependencias: [
             {
-                nombre: "",
-                pagina: "",
+                nombre: "Unidad de policía cibernética del estado de Sonora SSP",
+                pagina: "http://www.sspsonora.gob.mx/",
                 telefonos: [{
-                    numero: "",
+                    numero: "8007724237",
                     extension: ""
                 }],
                 whatsapp: "",
-                email: "",
-                facebook: "",
-                twitter: "",
+                email: "ciberssp@sonora.gob.mx",
+                facebook: "https://www.facebook.com/cibersonora/",
+                twitter: "https://twitter.com/cibersonora",
                 otro:""
             }
         ]
     },
     "MX-TAB" : {
-        name: "Colima",
+        name: "Tabasco",
         dependencias: [
             {
-                nombre: "",
-                pagina: "",
+                nombre: "Unidad de policía cibernética del estado de Tabasco FGE ",
+                pagina: "http://www.fiscaliatabasco.gob.mx/RepPoliciaInformatica",
                 telefonos: [{
-                    numero: "",
-                    extension: ""
+                    numero: "9933136550",
+                    extension: "4264"
                 }],
                 whatsapp: "",
-                email: "",
-                facebook: "",
-                twitter: "",
+                email: "denunciadi@fiscaliatabasco.gob.mx",
+                facebook: "https://www.facebook.com/UnidadInvestigacionDelitosInformaticosFGETabasco/",
+                twitter: "https://twitter.com/UIDIFGETabasco",
                 otro:""
             }
         ]
     },
     "MX-TAM" : {
-        name: "Colima",
+        name: "Tamaulipas",
         dependencias: [
             {
-                nombre: "",
-                pagina: "",
+                nombre: "Unidad de policía cibernética del estado de Tamaulipas SSP",
+                pagina: "https://www.tamaulipas.gob.mx/seguridadpublica/",
                 telefonos: [{
-                    numero: "",
+                    numero: "8343186200",
+                    extension: "16099"
+                }],
+                whatsapp: "",
+                email: "policiacibernetica.ssp@tam.gob.mx",
+                facebook: "https://www.facebook.com/PoliciaCiberneticaTam/",
+                twitter: "",
+                otro:""
+            },
+            {
+                nombre: "Unidad de policía cibernética del estado de Tamaulipas FJG",
+                pagina: "fgjtam.gob.mx",
+                telefonos: [{
+                    numero: "8343185100",
                     extension: ""
                 }],
                 whatsapp: "",
-                email: "",
-                facebook: "",
-                twitter: "",
+                email: "policiacibernetica.fgj@tam.gob.mx",
+                facebook: "https://www.facebook.com/FGJTam/",
+                twitter: "https://twitter.com/FGJ_Tam",
                 otro:""
             }
         ]
     },
     "MX-TLA" : {
-        name: "Colima",
+        name: "Tlaxcala",
         dependencias: [
             {
-                nombre: "",
-                pagina: "",
+                nombre: "Unidad de policía cibernética del estado de Tlaxcala SSP",
+                pagina: "https://ssc.tlaxcala.gob.mx/",
                 telefonos: [{
-                    numero: "",
-                    extension: ""
+                    numero: "2464652050",
+                    extension: "32200"
                 }],
                 whatsapp: "",
-                email: "",
+                email: "policia.cibernetica@tlaxcala.gob.mx",
                 facebook: "",
-                twitter: "",
+                twitter: "https://twitter.com/CiberpoliciaT",
                 otro:""
             }
         ]
     },
     "MX-VER" : {
-        name: "Colima",
+        name: "Veracruz",
         dependencias: [
             {
-                nombre: "",
-                pagina: "",
+                nombre: "Unidad de policía cibernética del estado de Veracruz SSP",
+                pagina: "http://sspc4.sspver.gob.mx/",
                 telefonos: [{
-                    numero: "",
-                    extension: ""
+                    numero: "2288418000",
+                    extension: "10035"
                 }],
                 whatsapp: "",
-                email: "",
-                facebook: "",
-                twitter: "",
+                email: "policiacientificapre@veracruz.gob.mx",
+                facebook: "https://www.facebook.com/Unidad-de-Policía-Científica-Preventiva-294479797614345/",
+                twitter: "https://twitter.com/UP_Cientifica",
                 otro:""
             }
         ]
     },
     "MX-YUC" : {
-        name: "Colima",
+        name: "Yucatán",
         dependencias: [
             {
-                nombre: "",
-                pagina: "",
+                nombre: "Unidad de policía cibernética del estado de Yucatán FGE",
+                pagina: "http://fge.yucatan.gob.mx/",
                 telefonos: [{
-                    numero: "",
-                    extension: ""
+                    numero: "9999303250",
+                    extension: "41248"
                 }],
                 whatsapp: "",
-                email: "",
-                facebook: "",
+                email: "policia.cibernetica@yucatan.gob.mx",
+                facebook: "https://www.facebook.com/CiberneticaYuc/",
                 twitter: "",
                 otro:""
             }
         ]
     },
     "MX-ZAC" : {
-        name: "Colima",
+        name: "Zacatecas",
         dependencias: [
             {
-                nombre: "",
-                pagina: "",
+                nombre: "Unidad de policía cibernética del estado de Zacatecas SSP",
+                pagina: "https://ssp.zacatecas.gob.mx/ ",
                 telefonos: [{
-                    numero: "",
+                    numero: "4921246037",
                     extension: ""
                 }],
                 whatsapp: "",
-                email: "",
-                facebook: "",
-                twitter: "",
+                email: "cibernetica.ssp.zacatecas@gmail.com",
+                facebook: "https://www.facebook.com/Cibernetica.ssp.zacatecas",
+                twitter: "https://twitter.com/SSP_Zac",
                 otro:""
             }
         ]
