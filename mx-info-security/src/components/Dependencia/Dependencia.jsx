@@ -5,7 +5,7 @@ import { AiFillFacebook, AiFillTwitterCircle, AiFillMail, AiOutlineWhatsApp, AiF
 const Dependencia = ({stateInfo}) => {
   return (
     <>
-    <Card style={{ width: '18rem',     float: "right" }}>
+    <Card style={{ width: '18rem', float: "right", marginRight: "2%" }}>
       <Card.Body>
         <Card.Title>{stateInfo.name}</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Dependencias:</Card.Subtitle>

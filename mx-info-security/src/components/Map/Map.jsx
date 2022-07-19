@@ -3,9 +3,9 @@ import "./Map.css";
 
 const Map = ({onClick}) => {
     return (
-        <svg onClick={onClick} version="1.0" xmlns="http://www.w3.org/2000/svg"
-        width="792.41846"
-          height="497.54324" viewBox="-118.369112 32.716750 -86.725536 14.531518"
+        <svg style={{position:"fixed"}} onClick={onClick} version="1.0" xmlns="http://www.w3.org/2000/svg"
+        width="900"
+          height="650"
         preserveAspectRatio="xMidYMid meet">
        
          <path

@@ -17,7 +17,7 @@ const MapPage = () => {
   };
 
   return (
-    <div className="map" style={{ width: "100%" }}>
+    <div className="map" style={{ width: "100%", paddingLeft: "30%", paddingTop:"5%" }}>
       <Map onClick={handleClick} />
       {Object.keys(currentStateInfo).length > 0 && (
         <Dependencia stateInfo={currentStateInfo} />

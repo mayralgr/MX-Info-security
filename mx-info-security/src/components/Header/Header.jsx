@@ -56,7 +56,7 @@ const Header = () => {
                   Delitos
                 </NavLink>
               </MenuItem>
-              <MenuItem icon={<FaSitemap />}>Sitios de Interes</MenuItem>
+              <MenuItem icon={<FaSitemap />}>Denuncia!</MenuItem>
             </Menu>
           </SidebarContent>
           <SidebarFooter>
