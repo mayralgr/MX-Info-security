@@ -7,8 +7,7 @@ const DelitoCard = ({ delito }) => {
   return (
     <DelitoCardWrapper open={state.open} id="delito-info">
       <h2>{delito.name}</h2>
-      <p>{delito.descripcion}</p>
-      <p>{delito.caracteristicas}</p>
+      {delito.descripcion.split("\n").map(str => <p>{str}</p>)}
       <strong>Articulos relacionados</strong>
       <table style={{ width: "100%" }}>
         <thead>
@@ -18,7 +17,9 @@ const DelitoCard = ({ delito }) => {
           </tr>
         </thead>
         <tbody>
-          {delito.articulos.map((articulo) => (
+          {delito.articulos
+          .sort((a,b) => b.legislacion > a.legislacion ? 1 : -1)
+          .map((articulo) => (
             <tr key={articulo.id}>
               <td>{articulo.articulo}</td>
               <td>{articulo.legislacion}</td>
@@ -27,9 +28,9 @@ const DelitoCard = ({ delito }) => {
         </tbody>
       </table>
       <strong>Prevención</strong>
-      <p>{delito.prevencion}</p>
+      {delito.prevencion.map(str => <p>{str}</p>)}
       <p>Palabras clave</p>
-      {delito.palabrasClave}
+      {delito.palabrasClave.map(str => <span>{str}</span>)}
     </DelitoCardWrapper>
   );
 };
