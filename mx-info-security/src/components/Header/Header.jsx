@@ -56,7 +56,15 @@ const Header = () => {
                   Delitos
                 </NavLink>
               </MenuItem>
-              <MenuItem icon={<FaSitemap />}>Denuncia!</MenuItem>
+              <MenuItem icon={<FaSitemap />}>
+              <NavLink
+                  to="/denuncia"
+                  className={({ isActive }) =>
+                    isActive ? "active" : "inactive"
+                  }
+                >Denuncia!
+                </NavLink>
+                </MenuItem>
             </Menu>
           </SidebarContent>
           <SidebarFooter>

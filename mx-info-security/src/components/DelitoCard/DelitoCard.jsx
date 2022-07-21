@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { useMenu } from "../../contexts/MenuContext";
 import DelitoCardWrapper from "./Styles/DelitoCardWrapper.styled";
+import { useMenu } from "../../contexts/MenuContext";
 
 const DelitoCard = ({ delito }) => {
   const { state } = useMenu();
